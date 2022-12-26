@@ -1,0 +1,14 @@
+{
+  "name": "math-helpers",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs --dts"
+  },
+  "dependencies": {
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0"
+  }
+}

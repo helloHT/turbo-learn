@@ -7,15 +7,18 @@
     "packages/*"
   ],
   "scripts": {
+    "build_mode": "node script/build_mode.js",
+    "dev_mode": "node script/dev_mode.js",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "online": "turbo run online",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "*",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "1.6.3"
   },
   "engines": {
     "node": ">=14.0.0"
